@@ -6,5 +6,170 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 1rem;
+  font-size:62.5%;
 }
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+a{
+  font-size: 1.6rem;
+}
+nav{
+  background-color: #2C3E50;
+}
+.nav_title, .nav_item, .ham_menu{
+  color:white;
+  font-size: 2rem;
+  padding: 10px;
+}
+.nav_item{
+  text-align: center;
+}
+
+#avatar_header{
+  text-align: center;
+  background-color: #1ABC9C;
+  color: white;
+}
+#avatar{
+  height: 300px;
+  width: 300px;
+}
+#avatar_header .star_separator{
+  color: white;
+}
+.star_separator .hor_sep_left hr,
+.star_separator .hor_sep_right hr{
+  width: 40%;
+  float: left;
+  border-bottom: 1px solid white;
+  border-radius: 5%;
+  margin-top: 13px;
+}
+.star_separator .star{
+  width: 20%;
+  float: left;
+}
+#portfolio{
+  margin-top: 20px;
+  color: #2C3E50;
+  text-align: center;
+}
+#portfolio h1 {
+  font-weight: bold;
+}
+#portfolio .star_separator .hor_sep_left hr,
+#portfolio .star_separator .hor_sep_right hr{
+  border-bottom: 2px solid #2C3E50;
+}
+#portfolio img{
+  height: 280px;
+  width: 400px;
+  border-radius: 5%;
+  margin: 10px 0 10px 0;
+}
+#portfolio .row .col-lg-6:not(:last-child){
+  text-align: right;
+}
+#portfolio .row .col-lg-6:not(:first-child){
+  text-align: left;
+}
+#about{
+  color: white;
+  background-color: #1ABC9C;
+  text-align: center;
+  padding-bottom: 50px;
+}
+#about h1, #about .star_separator{
+  font-weight: bold;
+}
+#about p{
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+#about .row .col-lg-2 a{
+  color: white;
+  border: 1px solid;
+  border-radius: 5%;
+  padding: 5px;
+}
+#contact_me{
+  color: #2C3E50;
+  background-color:white;
+  padding-bottom: 50px;
+}
+#contact_me h1, #contact_me .star_separator{
+  font-weight: bold;
+  text-align: center;
+}
+#contact_me .star_separator .hor_sep_left hr,
+#contact_me .star_separator .hor_sep_right hr{
+  border-bottom: 2px solid #2C3E50;
+}
+#contact_me form{
+  font-size: 2rem;
+}
+#contact_me form input,
+#contact_me form label,
+#contact_me form textarea{
+  padding: 0 0 15px 0;
+}
+#contact_me form input[value="Send"]{
+  background-color: #1ABC9C;
+  color: white;
+  padding:5px 10px;
+  margin-top: 10px;
+  border-radius: 10%;
+}
+footer section:first-child{
+  font-size: 1.6rem;
+  color: white;
+  background-color: #3A546D;
+  text-align: center;
+  padding-bottom: 20px;
+}
+footer .logo_container i:not(.fa-google-plus){
+  margin: 5px;
+  padding: 15px 17px 15px 17px;
+  border-radius: 50%;
+  border: 1px solid white;
+
+}
+footer .fa-google-plus{
+  margin: 5px;
+  padding: 15px 12px 15px 12px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+footer section .col-lg-4 p a{
+  color: #19B597;
+}
+#copyright{
+  padding: 30px 0 30px 0;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  background-color: #2C3E50;
+}
+
+/* / Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+COLONNE BOOTSTRAP
+.col- (extra small devices - screen width less than 576px)
+.col-sm- (small devices - screen width equal to or greater than 576px)
+.col-md- (medium devices - screen width equal to or greater than 768px)
+.col-lg- (large devices - screen width equal to or greater than 992px)
+.col-xl- (xlarge devices - screen width equal to or greater than 1200px)
+*/

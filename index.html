@@ -21,19 +21,18 @@
             <div class="nav_title col-lg-4 col-md-4 col-sm-6 col-xs-6">
               START BOOTSTRAP
             </div>
-            <div class="nav_item col-lg-offset-5 col-lg-1 col-md-offset-5 col-md-1 hidden-sm hidden-xs">
-                Portfolio
-            </div>
-            <div class="nav_item col-lg-1 col-md-1 hidden-sm hidden-xs">
-              About
-            </div>
-            <div class="nav_item col-lg-1 col-md-1 hidden-sm hidden-xs">
-              Contact
+            <div class="nav_item col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 hidden-sm hidden-xs">
+              <ul>
+                <li>Portfolio</li>
+                <li>About</li>
+                <li>Contact</li>
+              </ul>
             </div>
             <div class="ham_menu hidden-lg hidden-md col-xs-offset-4 col-xs-2 col-sm-offset-4 col-sm-2">
               <i class="fa fa-bars" aria-hidden="true"></i>
             </div>
           </div>
+        </div>
       </nav>
       <div id="avatar_header">
         <div class="container">
@@ -145,63 +144,71 @@
         </div>
       </section>
       <section id="contact_me">
-        <div class="row">
-          <h1>CONTACT ME</h1>
-        </div>
-        <div class="row clearfix star_separator">
-          <div class="col-lg-offset-5 col-lg-2 col-md-offset-5 col-md-2">
-            <span class="hor_sep_left">
-              <hr>
-            </span>
-            <span class="star">
-              <i class="fa fa-star fa-4x" aria-hidden="true"></i>
-            </span>
-            <span class="hor_sep_right">
-              <hr>
-            </span>
+        <div class="container">
+          <div class="row">
+            <h1>CONTACT ME</h1>
           </div>
+          <div class="row clearfix star_separator">
+            <div class="col-lg-offset-5 col-lg-2 col-md-offset-5 col-md-2">
+              <span class="hor_sep_left">
+                <hr>
+              </span>
+              <span class="star">
+                <i class="fa fa-star fa-4x" aria-hidden="true"></i>
+              </span>
+              <span class="hor_sep_right">
+                <hr>
+              </span>
+            </div>
+          </div>
+            <form class="row" method="post">
+              <input class="col-xs-offset-2 col-xs-8" type="text" name="Name" placeholder="Name">
+              <input class="col-xs-offset-2 col-xs-8" type="email" name="Email" placeholder="Email Address">
+              <input class="col-xs-offset-2 col-xs-8" type="text" name="Phone" placeholder="Phone Number">
+              <label class="col-xs-offset-2 col-xs-8" for="messaggio">Message</label>
+              <textarea name="messaggio" class="col-xs-offset-2 col-xs-8" cols="30" rows="10"></textarea>
+              <input type="submit" class="col-xs-offset-2" name="submit" value="Send">
+            </form>
         </div>
-          <form class="row" action="index.html" method="post">
-            <input class="col-xs-offset-2 col-xs-8" type="text" name="Name" placeholder="Name">
-            <input class="col-xs-offset-2 col-xs-8" type="email" name="Email" placeholder="Email Address">
-            <input class="col-xs-offset-2 col-xs-8" type="text" name="Phone" placeholder="Phone Number">
-            <label class="col-xs-offset-2 col-xs-8" for="messaggio">Message</label>
-            <textarea name="messaggio" class="col-xs-offset-2 col-xs-8" cols="30" rows="10"></textarea>
-            <input type="submit" class="col-xs-offset-2" name="submit" value="Send">
-          </form>
       </section>
     </main>
-    <footer class="container">
-      <section class="row">
-          <div class="col-lg-4 col-xs-12">
-            <h4>LOCATION</h4>
-            <div class="col-lg-offset-2 col-lg-8 col-xs-12">
-              <p>2215 John Daniel Drive Clark, MO 54243</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-xs-12">
-            <h4>AROUND THE WEB</h4>
-            <div class="logo_container">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-              <i class="fa fa-google-plus" aria-hidden="true"></i>
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </div>
-          </div>
-          <div class="col-lg-4 col-xs-12">
-            <h4>ABOUT FREELANCER</h4>
-            <div class="col-lg-offset-2 col-lg-8 col-xs-12">
-              <p>Freelancer is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a></p>
-            </div>
-          </div>
-      </section>
-      <section class="row">
-        <div id="copyright" class="col-xs-12 col-lg-12">
-          Copyright &copy; Your website 2019
+    <footer>
+      <div id="footer_color">
+        <div class="container">
+          <section class="row">
+              <div class="col-lg-4 col-xs-12">
+                <h4>LOCATION</h4>
+                <div class="col-lg-offset-2 col-lg-8 col-xs-12">
+                  <p>2215 John Daniel Drive Clark, MO 54243</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-xs-12">
+                <h4>AROUND THE WEB</h4>
+                <div class="logo_container">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <i class="fa fa-google-plus" aria-hidden="true"></i>
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="col-lg-4 col-xs-12">
+                <h4>ABOUT FREELANCER</h4>
+                <div class="col-lg-offset-2 col-lg-8 col-xs-12">
+                  <p>Freelancer is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
+                </div>
+              </div>
+          </section>
         </div>
-
-      </section>
+      </div>
+      <div id="copyright">
+        <div class="container">
+          <section class="row">
+            <div class="col-xs-12 col-lg-12">
+              Copyright &copy; Your website 2019
+            </div>
+          </section>
+        </div>
+      </div>
     </footer>
-
   </body>
 </html>

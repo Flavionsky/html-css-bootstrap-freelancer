@@ -84,8 +84,10 @@ nav{
   font-size: 1.8rem;
   text-align: left;
 }
-
-#about .row .col-md-2 a{
+#about a i{
+  margin-top: 50px;
+}
+#about a{
   color: white;
   border: 1px solid;
   border-radius: 5%;
@@ -140,7 +142,7 @@ footer .fa-google-plus{
   border: 1px solid white;
 }
 
-footer section .col-lg-4 p a{
+footer section .col-xs-12 p a{
   color: #19B597;
 }
 #copyright{

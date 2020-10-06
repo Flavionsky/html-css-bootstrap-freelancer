@@ -68,13 +68,8 @@ nav{
   height: 280px;
   width: 400px;
   border-radius: 5%;
-  margin: 10px 0 10px 0;
-}
-#portfolio .row .col-lg-6:not(:last-child){
-  text-align: right;
-}
-#portfolio .row .col-lg-6:not(:first-child){
-  text-align: left;
+  margin: 5px 0;
+  padding: 0 10px;
 }
 #about{
   color: white;
@@ -90,7 +85,7 @@ nav{
   text-align: left;
 }
 
-#about .row .col-lg-2 a{
+#about .row .col-md-2 a{
   color: white;
   border: 1px solid;
   border-radius: 5%;
@@ -155,7 +150,6 @@ footer section .col-lg-4 p a{
   text-align: center;
   background-color: #2C3E50;
 }
-
 /* / Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { ... }
 // Small devices (landscape phones, 576px and up)

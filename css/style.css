@@ -7,11 +7,6 @@ body {
   font-family: 'Lato', sans-serif;
   font-size:62.5%;
 }
-.clearfix::after{
-  content: "";
-  display: table;
-  clear: both;
-}
 a{
   font-size: 1.6rem;
 }
@@ -49,20 +44,22 @@ nav i{
   height: 300px;
   width: 300px;
 }
-#avatar_header .star_separator{
+#avatar_header{
   color: white;
 }
-.star_separator .hor_sep_left hr,
-.star_separator .hor_sep_right hr{
-  width: 45%;
-  float: left;
-  border-bottom: 1px solid white;
+.hor_sep_left,
+.hor_sep_right{
+  height: 1px;
+  width: 30%;
+  display: inline-block;
+  border: 1px solid;
   border-radius: 5%;
-  margin-top: 13px;
+  vertical-align: middle;
 }
-.star_separator .star{
+.star{
+  vertical-align: middle;
   width: 10%;
-  float: left;
+  display: inline-block;
 }
 #portfolio{
   margin-top: 20px;
@@ -72,8 +69,8 @@ nav i{
 #portfolio h1 {
   font-weight: bold;
 }
-#portfolio .star_separator .hor_sep_left hr,
-#portfolio .star_separator .hor_sep_right hr{
+#portfolio .hor_sep_left,
+#portfolio .hor_sep_right{
   border-bottom: 2px solid #2C3E50;
 }
 #portfolio img{
@@ -88,7 +85,7 @@ nav i{
   text-align: center;
   padding-bottom: 50px;
 }
-#about h1, #about .star_separator{
+#about h1{
   font-weight: bold;
 }
 #about p{
@@ -109,14 +106,18 @@ nav i{
   background-color:white;
   padding-bottom: 50px;
 }
-#contact_me h1, #contact_me .star_separator{
+#contact_me h1{
   font-weight: bold;
+}
+#contact_me .container .row:first-child,
+#contact_me .row:nth-child(2n){
   text-align: center;
 }
-#contact_me .star_separator .hor_sep_left hr,
-#contact_me .star_separator .hor_sep_right hr{
-  border-bottom: 2px solid #2C3E50;
+#contact_me .hor_sep_left,
+#contact_me .hor_sep_right{
+  border-bottom: 1px solid #2C3E50;
 }
+
 #contact_me form{
   font-size: 2rem;
 }
@@ -127,6 +128,14 @@ nav i{
   border-top: none;
   border-left: none;
   border-right: none;
+}
+#contact_me input[placeholder]{
+  color:black;
+
+}
+#contact_me label[for="messaggio"]{
+  font-weight: normal;
+  opacity: 0.8;
 }
 #contact_me form input[value="Send"]{
   background-color: #1ABC9C;
